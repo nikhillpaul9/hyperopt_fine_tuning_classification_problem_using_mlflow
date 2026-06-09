@@ -1,0 +1,29 @@
+artifact_path: file:///D:/AI Projects/ML_Flow/Breast_Cancer_Problem/mlruns/1/models/m-4ac250f5e8274e6197477db757bf5511/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-4ac250f5e8274e6197477db757bf5511
+model_size_bytes: 59840
+model_uuid: m-4ac250f5e8274e6197477db757bf5511
+prompts: null
+run_id: 484a8ba84d354357b777f06263348b1f
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 30]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-09 14:00:55.055742'
